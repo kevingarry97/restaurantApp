@@ -1,0 +1,10 @@
+.bg_image{
+    background-image: url('/assets/images/resto_bg.png');
+    height: 180px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li{
+    font-size: 14px;
+}

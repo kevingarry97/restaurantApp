@@ -1,0 +1,18 @@
+.page-footer{
+    background-color: #3b3b3b;
+    font-size: 13px;
+}
+.footer-copyright{
+    background-color: #151515;
+    color: #f5fafc;
+    font-size: 13px;
+}
+.form-control{
+    border: 0px;
+    border-radius: 2px;
+}
+span .rounded-icon{
+    border-radius: 50%;
+    background-color: #151515 !important;
+    padding: 7px 7px;
+}

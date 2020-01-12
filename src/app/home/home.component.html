@@ -1,0 +1,148 @@
+<app-bs-navbar></app-bs-navbar>
+<section id="Topnav">
+    <div class="bg_image py-5">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="font-weight-bold mb-4"> Find nearby restaurants </h1>
+                <div class="col-md-6 offset-md-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search a restaurant" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5" id="restaurants">
+    <h4 class="font-weight-bold text-center my-5" style="color: black;">Our restaurants</h4>
+    <div class="ml-4 mb-5">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px-3">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>   
+            </ng-template>  
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px-3">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>
+            </ng-template>  
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px-3">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>
+            </ng-template> 
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px32">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>
+            </ng-template>  
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px-2">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <img src="assets/images/food.png" alt="" class="img-responsive px-4" style="max-height: 180px;">
+                <div class="mx-4 py-3" style="background-color: #fff;padding: 5px 10px;">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="assets/images/restaurant.png" class="img-responsive" style="height: 35px;width: auto;" alt="">
+                        </div>
+                        <div class="col-9 px-2">
+                            <h6 style="font-size: 14px;margin: 0;"><strong> KUGASIMA CAFFEE</strong></h6>
+                            <strong style="font-size: 12px;margin: 0;">Kimihurura</strong>
+                        </div>
+                    </div>    
+                </div>
+            </ng-template>  
+        </owl-carousel-o>
+    </div>
+    <div class="py-5 text-center">
+        <a class="btn btn-primary" style="color: #fff;font-size: 13px;"> Explore more </a>
+    </div>   
+</section>
+<section class="py-5" id="works">
+    <div class="container">
+        <div class="row text-center mb-5 py-5">
+            <div class="col-md-4">
+                <img src="assets/images/step1.png" style="max-height: 70px;" alt="" class="img-responsive">
+                <h6 class="font-weight-bold my-3"> Step uno </h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sed do euismod</p>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/step2.png" style="max-height: 70px;" alt="" class="img-responsive">
+                <h6 class="font-weight-bold my-3"> Step dos </h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sed do euismod</p>
+            </div>
+            <div class="col-md-4">
+                <img src="assets/images/step3.png" style="max-height: 70px;" alt="" class="img-responsive">
+                <h6 class="font-weight-bold my-3"> Step tres </h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. sed do euismod</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-5 py-5" id="getApp">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-8">
+                <img src="assets/images/phone.png" class="phone img-responsive" style="max-height: 400px;" alt="">
+            </div>
+            <div class="col-md-4" style="color: #fff;">
+                <h2><strong> Get the App </strong></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit.</p>
+                <button class="btn"> Download </button>
+            </div>
+        </div>
+    </div>
+</section>
+<app-bs-footer></app-bs-footer>
